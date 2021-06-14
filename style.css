@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #022601;
 }
 
 .col-lg.text h2 {
@@ -155,6 +156,49 @@ body {
 
 .row {
     --bs-gutter-x: 0;
+}
+
+.glider-section {
+    background-color: #F2ECE9;
+    padding-left: 0;
+}
+
+.glider-section h2 {
+    margin-left: 5%;
+    padding: 18px 0;
+    font-size: 1.375em;
+    font-weight: 400;
+}
+
+.glider-section .glider-item-one,
+.glider-section .glider-item-two,
+.glider-section .glider-item-three,
+.glider-section .glider-item-four {
+    background-color: white;
+    margin-right: 1%;
+    -webkit-box-shadow: 3px 3px 8px -3px rgba(2,38,1,0.5); 
+    box-shadow: 3px 3px 8px -3px rgba(2,38,1,0.5);
+}
+
+.glider-section .glider-article {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.glider-section .glider-article p.name {
+    margin-top: 23px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 0.9375em;
+}
+
+.glider-section .glider-article p.function {
+    font-weight: 400;
+    font-size: 0.8125em
+}
+
+.stars .fas.fa-star {
+    color: #FAC917;
 }
 
 
