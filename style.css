@@ -165,7 +165,7 @@ body {
 
 .glider-section h2 {
     margin-left: 5%;
-    padding: 18px 0;
+    padding: 25px 0 16px 0;
     font-size: 1.375em;
     font-weight: 400;
 }
@@ -194,7 +194,26 @@ body {
 
 .glider-section .glider-article p.function {
     font-weight: 400;
-    font-size: 0.8125em
+    font-size: 0.8125em;
+}
+
+.glider-section .glider-article h4 {
+    font-weight: 700;
+    font-size: 1.0625em;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.glider-section .glider-article .stars {
+    margin-bottom: 30px;
+}
+
+.glider-section .glider-article p {
+    line-height: 2em;
+}
+
+.glider-section .glider-article p.glider-p {
+    margin-bottom: 25px;
 }
 
 .stars .fas.fa-star {
