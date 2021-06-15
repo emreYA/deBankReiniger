@@ -161,6 +161,7 @@ body {
 .glider-section {
     background-color: #F2ECE9;
     padding-left: 0;
+    padding-right: 0;
 }
 
 .glider-section h2 {
@@ -176,6 +177,7 @@ body {
 .glider-section .glider-item-four {
     background-color: white;
     margin-right: 1%;
+    margin-bottom: 10px;
     -webkit-box-shadow: 3px 3px 8px -3px rgba(2,38,1,0.5); 
     box-shadow: 3px 3px 8px -3px rgba(2,38,1,0.5);
 }
@@ -220,6 +222,31 @@ body {
     color: #FAC917;
 }
 
+.glider-prev {
+    position: unset;
+    display: inline-block;
+    margin-left: 15%;
+    color: #F24B0F;
+    padding-top: 18px;
+}
+
+.glider-next {
+    float: right;
+    margin-right: 15%;
+    position: unset;
+    display: block;
+    color: #F24B0F;
+    padding-top: 18px;
+}
+
+.glider-next:focus, .glider-next:hover, .glider-prev:focus, .glider-prev:hover {
+    color: #F24B0F;
+}
+
+.glider-next.disabled, .glider-prev.disabled {
+    color: #022601;
+    opacity: unset;
+}
 
 @media (min-width: 992px) {
     .navbar-brand h1 {
