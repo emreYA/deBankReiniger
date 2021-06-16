@@ -162,6 +162,7 @@ body {
     background-color: #F2ECE9;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 20px;
 }
 
 .glider-section h2 {
@@ -246,6 +247,10 @@ body {
 .glider-next.disabled, .glider-prev.disabled {
     color: #022601;
     opacity: unset;
+}
+
+.footer {
+
 }
 
 @media (min-width: 992px) {
