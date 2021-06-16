@@ -249,9 +249,56 @@ body {
     opacity: unset;
 }
 
-.footer {
-
+.footer .social-media {
+    margin-top: 47px;
+    text-align: center;
 }
+
+.footer a {
+    text-decoration: none;
+    color: #022601;
+}
+
+.footer .facebook h3,
+.footer .instagram h3 {
+    font-weight: 700;
+    font-size: 1.0625em;
+    margin-top: 13px;
+}
+
+.footer .facebook .volg-ons,
+.footer .instagram .volg-ons {
+    font-weight: 400;
+    font-size: 0.9375em;
+    margin-top: 10px;
+}
+
+.footer .instagram {
+    margin-top: 37px;
+    margin-bottom: 15px;
+}
+
+.footer .border-top {
+    border-top: 1px solid #022601;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 0.75em;
+}
+
+.footer .border-top .copyright p {
+    margin: 0;
+}
+
+.footer .border-top .copyright,
+.footer .border-top .email {
+    margin-bottom: 9px;
+}
+
+
+.container-fluid.main.over-ons {
+    background-color: #C6E2E5;
+}
+
 
 @media (min-width: 992px) {
     .navbar-brand h1 {
