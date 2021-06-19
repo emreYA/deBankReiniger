@@ -338,6 +338,41 @@ body {
     background-color: #C6E2E5;
 }
 
+.container-fluid.main.contact h2 {
+    margin-bottom: 65px;
+}
+
+.container-fluid.main.contact .text {
+    margin-bottom: 40px;
+}
+
+.container-fluid.main.contact .phone-contact i,
+.container-fluid.main.contact .email-contact i,
+.container-fluid.main.contact .place-contact i {
+    display: inline-block;
+    font-size: xx-large;
+    color: #022601;
+    width: 30px;
+}
+
+.container-fluid.main.contact .phone-contact h5,
+.container-fluid.main.contact .email-contact h5,
+.container-fluid.main.contact .place-contact h5 {
+    display: inline-block;
+    font-size: 0.9375em;
+    margin-left: 25px;
+    margin-bottom: 45px;
+    font-weight: 400;
+    vertical-align: super;
+}
+
+.container-fluid.main.contact .phone-contact h5 a,
+.container-fluid.main.contact .email-contact h5 a,
+.container-fluid.main.contact .place-contact h5 a{
+    text-decoration: none;
+    color: #022601;
+}
+
 @media (min-width: 992px) {
     .navbar-brand h1 {
         font-size: 17px;
