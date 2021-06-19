@@ -6,7 +6,6 @@ body {
 .col-lg.text h2 {
     font-size: 1.375em;
     font-weight: 700;
-    margin-top: 37px;
     margin-bottom: 29px;
 }
 
@@ -18,6 +17,7 @@ body {
     line-height: 2;
     padding-right: 3%;
     margin-bottom: 30px;
+    font-size: 0.9375em;
 }
 
 .col-lg.text .button-article{
@@ -85,6 +85,7 @@ body {
     padding-right: 5%;
     line-height: 2em;
     padding-bottom: 40px;
+    font-size: 0.9375em;
 }
 
 .navbar {
@@ -213,6 +214,7 @@ body {
 
 .glider-section .glider-article p {
     line-height: 2em;
+    font-size: 0.9375em;
 }
 
 .glider-section .glider-article p.glider-p {
@@ -299,6 +301,42 @@ body {
     background-color: #C6E2E5;
 }
 
+.text-img-article {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.text-img-article .article-text {
+    line-height: 2;
+    font-size: 0.9375em;
+}
+
+.text-img-article .article-img {
+    margin-top: 10px;
+}
+
+.text-img-article .article-text h3 {
+    color: #F24B0F;
+    font-weight: 700;
+    font-size: 0.9375em;
+}
+
+.container-fluid.main .text {
+    padding-top: 37px;
+}
+
+.container-fluid.main h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 0.9375em;
+    margin-bottom: 4px;
+}
+
+.container-fluid.main.services {
+    background-color: #C6E2E5;
+}
 
 @media (min-width: 992px) {
     .navbar-brand h1 {
