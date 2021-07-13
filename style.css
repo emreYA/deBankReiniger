@@ -97,6 +97,11 @@ body {
     font-size: 0.9375em;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 700;
+    color: #022601;
+}
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     width: fit-content;
     font-weight: 700;
@@ -138,8 +143,9 @@ body {
 .nav-link.d-flex {
     color: #F24B0F;
     padding: 0;
+    display: unset!important;
+    font-weight: 700;
 }
-
 .container-fluid.main {
     padding: 0;
     background-color: #F4DBD6;
@@ -170,6 +176,14 @@ body {
     margin-left: 5%;
     padding: 25px 0 16px 0;
     font-size: 1.375em;
+    font-weight: 700;
+}
+
+.glider-section.klanten-vinden h2 {
+    font-weight: 400;
+}
+
+.glider-section span {
     font-weight: 400;
 }
 
@@ -373,9 +387,142 @@ body {
     color: #022601;
 }
 
+.none-small {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+}
+
+
 @media (min-width: 992px) {
+
+    .header.navbar.navbar-expand-lg.navbar-light {
+        padding-bottom: 0;
+    }
+
+    .header.navbar.navbar-expand-lg.navbar-light .container-fluid {
+        border-bottom: 1px solid #022601;
+        padding-bottom: 12px;
+    }
+
+    .navbar.navbar-light.navbar-expand-sm.none-small.nav-bar-l {
+        padding-bottom: 0;
+        background-color: white;
+    }
+
+    .container-fluid.nav-desktop {
+        width: 90%;
+        padding: 0;
+    }
+
+    .navbar.navbar-light.navbar-expand-sm.none-small.nav-bar-l .navbar-nav a {
+        padding-left: 0;
+        margin-right: 18px;
+    }
+
+    .col-lg.text h2 {
+        font-size: 2.75em;
+        margin-top: 35px;
+    }
+
+    .container-fluid.steps h2 {
+        font-size: 2.75em;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .steps .row {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .steps .row .step {
+        margin-right: 75px;
+    }
+
+    .steps .row .step.step-three {
+        margin-right: 0;
+    }
+
+    .container-fluid.steps {
+        margin-bottom: 70px;
+    }
+
+    .container-fluid.steps .step {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .none-small {
+        display: block;
+    }
+
     .navbar-brand h1 {
         font-size: 17px;
+    }
+
+    .nav-link.d-flex {
+        color: #F24B0F;
+        padding: 0;
+        display: unset!important;
+        border: 1px solid #F24B0F;
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .nav-link.d-flex:hover {
+        color: #e24a13;
+        border-color: #e24a13;
+        transition: ease-in-out;
+    }
+
+    .klanten-vinden h2 {
+        font-size: 2.75em;
+    }
+
+    .klanten-vinden .glider {
+        padding-left: 5%;
+    }
+
+    .glider-section .glider-article {
+        padding-left: 13%;
+        padding-right: 13%;
+        margin-bottom: 30px;
+    }
+
+    .glider-item .glider-article p.name,
+    .glider-item .glider-article h4 {
+        font-size: 1.4375em;
+    }
+    .glider-item .glider-article p.glider-p {
+        font-size: 1.0625em;
+        margin-bottom: 35px;
+    }
+
+    .glider-prev,
+    .glider-next {
+        margin-bottom: 10px;
+    }
+
+    .footer .social-media .instagram {
+        margin-top: 0;
+    }
+
+    .footer .social-media {
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+
+    .footer .border-top .copyright {
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    .footer .border-top .email {
+        text-align: right;
+        margin-right: 5%;
     }
 
     .none-xl {
@@ -386,8 +533,27 @@ body {
         max-width: 50%;
     }
 
+    .col-lg.text .article {
+        font-size: 1.0625em;
+        padding-right: 19%;
+    }
+
+    .col-lg.text .button-article {
+        margin-bottom: 85px;
+    }
+
+    .col-lg.text .button-article:hover {
+        background-color: #e24a13;
+        transition: ease-in-out;
+    }
+
     .col-lg.img img{
-        max-height: unset;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    .col-lg.img .img-fluid{
+        height: 100%;
     }
 }
 
